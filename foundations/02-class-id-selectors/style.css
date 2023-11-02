@@ -1,0 +1,19 @@
+.odd {
+    background-color: #D8BFD8;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.p-three{
+    font-size: 24px;
+}
+
+#div-1{
+    font-size: 36px;
+    color: #5D3FD3;
+}
+
+#div-2{
+    background-color: #98FB98;
+    font-size: 24px;
+    font-weight: bold;
+}
