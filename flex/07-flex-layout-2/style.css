@@ -26,4 +26,58 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+
 }
+
+/* ---- */
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main { 
+  display: flex;
+  height: 60vw;
+}
+
+.sidebar {
+  max-width: 300px;
+  flex-shrink: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-between;
+  padding: 32px;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 32px;
+  font-weight: 900;
+  width: 100vw;
+} 
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  padding: 16px;
+}
+
